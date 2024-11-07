@@ -129,6 +129,7 @@ type ResPartner struct {
 	WriteDate                     *Time      `xmlrpc:"write_date,omitempty"`
 	WriteUid                      *Many2One  `xmlrpc:"write_uid,omitempty"`
 	Zip                           *String    `xmlrpc:"zip,omitempty"`
+	IsDriver                      *Bool      `xmlrpc:"is_driver,omitempty"`
 }
 
 // ResPartners represents array of res.partner model.
